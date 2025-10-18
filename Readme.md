@@ -1,4 +1,4 @@
-This project is a command-line To-Do List Application built using Python. It allows users to efficiently manage their daily tasks with simple menu-driven options. Users can add, view, delete, and mark tasks as completed, all within an interactive terminal interface.
+This project is a To-Do List Application built using Python. It allows users to efficiently manage their daily tasks with simple menu-driven options. Users can add, view, delete, and mark tasks as completed, all within an interactive terminal interface.
 
 The program ensures a clean user experience by handling invalid inputs gracefully and providing meaningful feedback. It also includes personalized greetings and simple age verification to make it more interactive.
 
