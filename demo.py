@@ -1,6 +1,8 @@
+import time
 tasks = []
 user_name = input("Enter you name ")
 age = int(input("Enter your age "))
+time.sleep(5)
 if(age >= 18):
   while True:
     print("\n To-Do List Menu\n")
@@ -48,6 +50,5 @@ if(age >= 18):
   
     else:
       print("Invalid Input")
-
 else:
   print("You are very young to use this")
