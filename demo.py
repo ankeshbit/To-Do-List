@@ -45,8 +45,15 @@ if(age >= 18):
       break
   
     elif(user_input == 5):
-      for i in range(len(tasks)):
-        print(f"\u2705{i+1}.tasks{i}")
+        try:
+            done_no = int(input("Enter task number to mark done: "))
+            if 1 <= done_no <= len(tasks):
+                tasks[done_no - 1] = f"{tasks[done_no - 1]} \u2705" 
+                print("Task marked as completed!")
+            else:
+                print("Invalid number.")
+        except ValueError:
+            print("Invalid input.")
   
     else:
       print("Invalid Input")
